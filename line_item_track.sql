@@ -2,7 +2,7 @@
 
 SELECT
 	il.*,
-	t.Name
+	t.Name as TrackName
 FROM
 	Track t,
 	InvoiceLine il
